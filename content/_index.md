@@ -10,6 +10,6 @@ experience on the Yale SOM HPC more ergonomic.
 I broke our time together into three parts:
 
 1. [Connecting to the HPC](/connecting-to-the-hpc)
+3. [Editing code remotely with VSCode](/remote-dev-with-vscode)
+4. [Using tmux to manage your terminal sessions](/tmux)
 2. [Running Jupyter notebooks and RStudio remotely on the HPC](/running-notebooks)
-3. Editing code remotely with VSCode
-4. Using tmux to manage your terminal sessions
