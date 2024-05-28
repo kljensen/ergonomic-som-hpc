@@ -35,7 +35,7 @@ Now, let's reattach to the `lunch` session. Type `tmux attach -t lunch`. You sho
 In tmux
 - Sessions have windows
 - Windows have panes
-- Panes have "buffers", usually a terminal session or some other process
+- Panes have some kind of process running in them, like a shell
 
 Let's add a window. To do so, I should to introduce you to the tmux "prefix key". By default, this is `Ctrl-b`. When you type `Ctrl-b`, you're telling tmux "I'm about to give you a command".
 
@@ -61,13 +61,21 @@ From any pane, you can detach from the session with `tmux detach`. This can also
 accomplished with with a key combination like `Ctrl-b d`, but I prefer to type the command
 personally.
 
-## Helpful links
+## Further directions
 
-Here's a small collection of links you might find useful. The first one is surely
-useful...the others seem decent to me. You can find a ton of content online to help
-you get started with tmux and, of course, most LLMs will be happy to help you.
+There's a lot more you can do with tmux including
+- customizing the status bar
+- creating custom key bindings
+- resizing and moving panes
+- renaming windows and sessions
+- copying and pasting from the pane buffers
 
-- [Awesome Tmux](https://github.com/rothgar/awesome-tmux). List of helpful tmux links for various tutorials, plugins, and configuration settings.
+Most LLMs will be able to help you with those things. Also, you can find
+a ton of human-written content about tmux on the internet.
+Here's a few links I thought you might find useful. The first one is surely
+useful...the others seem decent to me.
+
+- [Awesome Tmux](https://github.com/rothgar/awesome-tmux). List of helpful tmux links for various tutorials, plugins, and configuration settings. Justin Garrison.
 - [Tmux Tutorial for Beginners
-](https://dev.to/iggredible/tmux-tutorial-for-beginners-5c52)
-- [Tmux From Scratch To BEAST MODE](https://www.youtube.com/watch?v=GH3kpsbbERo)
+](https://dev.to/iggredible/tmux-tutorial-for-beginners-5c52); Igor Irianto.
+- [Tmux From Scratch To BEAST MODE](https://www.youtube.com/watch?v=GH3kpsbbERo); DevOps Toolbox.

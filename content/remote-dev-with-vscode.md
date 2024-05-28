@@ -50,6 +50,17 @@ picking up my python/r/whatever environment?" and the answer is
 mostly "yes" and that it is configurable. But, I'm not going to
 describe that here.
 
+## Notes on restarting VSCode or switching networks
+
+If you restart VSCode or switch networks, it's likely that VSCode
+will lose it's connection to the HPC, but you don't lose any *saved*
+work (nor, likely, unsaved work). VSCode will attempt to reconnect
+to the HPC when you open the editor window again.  Sometimes it 
+will fail, for
+example if you took your laptop home and you're off the VPN. In
+that case, just keep VSCode open, reconnect to the VPN, and then
+let VSCode retry. I have never lost work.
+
 ## Making this easier
 
 When you install VSCode on your laptop/host machine, you get a 
@@ -69,3 +80,11 @@ This opens my `ai-ethics-project` directory on the HPC in VSCode. I saved
 that script to a file called `code-ai-ethics-hpc.sh` and made it executable
 with `chmod +x code-ai-ethics-hpc.sh`. Now I can just type `./code-ai-ethics-hpc.sh`
 and I'm editing my code on the HPC.
+
+## Further directions
+
+VSCode is pretty nice and I highly recommend you give it a whirl.
+Here's a few links to get you started
+
+- [Awesome VSCode](https://github.com/viatsko/awesome-vscode); Valerii Iatsko.
+- [Remote Development with VSCode (SSH)](https://www.youtube.com/watch?v=miyD4c1dnTU); Susan B.

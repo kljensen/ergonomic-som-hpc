@@ -96,3 +96,13 @@ If you're still being prompted for a password,
 well, that's beyond the scope of my brief tutorial. You might want to
 just ask an LLM.
 
+## Further directions
+
+Connecting to remote machines, port forwarding, and tunneling covers
+about 99% of my SSH use. I gave you only the thinnest peek into those
+things. You can read a ton more online. Here's a few links to get you
+started.
+
+- [SSH Essentials: Working with SSH Servers, Clients, and Keys](https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys); Digital Ocean.
+- [Awesome SSH](https://github.com/moul/awesome-ssh); Manfred Touron.
+- [Simplify Your Life With an SSH Config File](https://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/); Joël Perras.

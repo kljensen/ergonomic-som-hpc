@@ -7,7 +7,7 @@ Ahoy friends 👋 &mdash; These are the notes from my
 2024-05-28 presentation about making your development
 experience on the Yale SOM HPC more ergonomic.
 
-I broke our time together into three parts:
+I broke our time together into four parts:
 
 1. [Connecting to the HPC](/connecting-to-the-hpc)
 3. [Editing code remotely with VSCode](/remote-dev-with-vscode)
